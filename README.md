@@ -35,8 +35,6 @@ will take `input.mp4` as input and create an `MPEG-DASH` manifest `stream.mpd` i
 
 A 1080p `(1920x1080)` file with 5 output streams will generate the manifest `output\stream.mpd` with resoultions:
 
-`1920x1080`
-`1280x720`
-`960x540`
-`768x432`
-`640x360`
+`1920x1080`, `1280x720`, `960x540`, `768x432`, and `640x360`
+
+The audio stream (if any) will be copied from the input.
