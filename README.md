@@ -31,4 +31,12 @@ For example:
 
 `python3 dasher.py input.mp4 5`
 
-will take `input.mp4` as input and create an `MPEG-DASH` manifest with 5 streams of successively decreasing resolution.
+will take `input.mp4` as input and create an `MPEG-DASH` manifest `stream.mpd` in the directory `output` with 5 streams of successively decreasing resolution.
+
+A 1080p `(1920x1080)` file with 5 output streams will generate the manifest `output\stream.mpd` with resoultions:
+
+`1920x1080`
+`1280x720`
+`960x540`
+`768x432`
+`640x360`
