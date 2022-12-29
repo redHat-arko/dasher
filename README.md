@@ -15,7 +15,7 @@ However, they are quite daunting to use for the not-so-well-versed.
 a perceptible level of quality across resolutions.
 
 ## Dependencies
-* Requires `Python` 3.7+ to be installed
+* Requires [Python](https://www.python.org) 3.7+ to be installed
 * [ffmpeg](https://ffmpeg.org)
 * [Bento4](https://www.bento4.com)
 
