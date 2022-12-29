@@ -3,7 +3,9 @@ Easily create an MPEG-DASH presentation of a video.
 
 ## Why use dasher
 `ffmpeg` and the `Bento4` SDK, in themselves, are very powerful tools and in combination, can be used to create high-quality, highly viable streaming media.
-However, they are quite daunting to use for the not-so-well-versed. `dasher` is a tool intended to make it easy to create streaming media.
+However, they are quite daunting to use for the not-so-well-versed. 
+
+`dasher` is a tool intended to make it easy to create streaming media.
 
 ## Features
 * Easy conversion of unfragmented video to an MPEG-DASH compatible format.
