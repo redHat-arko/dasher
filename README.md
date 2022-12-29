@@ -7,9 +7,9 @@ However, they are quite daunting to use for the not-so-well-versed. `dasher` is 
 
 ## Features
 * Easy conversion of unfragmented video to an MPEG-DASH compatible format.
-* Adaptive streaming implemented by transcoding video to different resolutions to obtain a number of user-specified streams.
-* Efficient encoding using `ffmpeg`'s open-source H.264 (`x264`) encoder.
-* Encoder settings optimized for `1080p` input to deliver quality similar to `Amazon`'s `VBR` `H.264` streams, encoded using decreasing `CRF` values to maintain
+* Adaptive streaming implemented by automatically transcoding video to different resolutions to obtain a number of user-specified streams.
+* Efficient encoding using `ffmpeg`'s open-source `H.264` (`x264`) encoder.
+* Encoder settings optimized for `1080p` input to deliver quality similar to `Amazon`'s `VBR` `H.264` streams, encoded using successively decreasing `CRF` values to maintain
 a perceptible level of quality across resolutions.
 
 ## Dependencies
