@@ -49,7 +49,7 @@ class DASHMaker:
 
 def main():
     input_file = sys.argv[1]
-    num_streams = sys.argv[2]
+    num_streams = int(sys.argv[2])
     dash_maker = DASHMaker(input_file, num_streams)
     dash_maker.run()
 
